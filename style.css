@@ -1,0 +1,99 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.noMargins {
+  margin: 0;
+}
+
+#gameUpper {
+  width: 100vw;
+  height: 50wh;
+  margin-bottom: 2rem;
+}
+
+#top {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#instructions {
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+#instructions p {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#wordContainer {
+  display: flex;
+  gap: 10px;
+  margin: 60px auto auto auto;
+  justify-content: center;
+}
+
+.letterBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 80px;
+  height: 80px;
+  border-bottom: 5px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+
+#gameLower {
+  margin-top: 130px;
+  width: 100vw;
+  height: 50wh;
+}
+
+#platform {
+ 
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 80px;
+  height: 80px;
+  border-color: black;
+  border-width: 2px;
+  border-style: none;
+  margin: 1px;
+}
+
+.square p {
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+}
+
+#result {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#result p {
+  font-family: sans-serif;
+  font-size: 30px;
+}
